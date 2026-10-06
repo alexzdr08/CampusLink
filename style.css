@@ -1,0 +1,129 @@
+body {
+    margin: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; 
+    color: #333333;
+    background: linear-gradient(155deg, #4d4199 0%, #d6cef0 50%, #705aa4 100%);
+    background-attachment: fixed; 
+    min-height: 100vh;
+    color: #333333;
+}
+main {
+    width: 90%;
+    max-width: 1400px; 
+    margin: 0 auto; 
+    padding: 20px 0; 
+}
+main h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+    color: #14101b;
+}
+main p {
+   color: #14101b; 
+   font-weight: 500;
+   margin-top: 10;
+}
+.campus-bold {
+    font-weight: 700;
+    color: #1d1133;
+} 
+.link-text {
+    font-weight: 400;
+    font-size: 2.0rem;
+    color: #593bd289;
+
+}
+.navbar {
+    display: flex; 
+    align-items: center; 
+    
+    width: 100%; 
+    max-width: 1400px; 
+    margin: 30px auto; 
+    padding: 10px 30px;
+    
+    background-color: #ffffff;
+    border-radius: 30px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+.navbar nav {
+    margin: 0 auto; 
+    padding-right: 50px; 
+}
+.navbar nav ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    gap: 80px; 
+}
+.navbar nav a {
+    text-decoration: none; 
+    color: #555555; 
+    font-weight: 500; 
+    
+    
+    padding: 10px 20px; 
+    background-color: #f0f2f5; 
+    border-radius: 20px; 
+    
+    transition: all 0.3s ease; 
+}
+.navbar nav a:hover {
+    background-color: #bfa0ea; 
+    color: rgb(70, 49, 98); 
+}
+.logo-text {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #2c3e50; 
+}
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+.card {
+    background-color: #ffffff; 
+    padding: 35px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); 
+    background-color: #e9e0f6; 
+    color: rgb(62, 33, 100); 
+}
+.card h3 {
+    margin-top: 0;
+    color: #0a061a;
+    font-size: 1.2rem;
+}
+.card p {
+    margin-bottom: 0;
+    color: #120831c1;
+    font-weight: 500;
+}
+button, .btn {
+    background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%); 
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px; 
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25); 
+    transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 16px rgba(99, 102, 241, 0.4); 
+}

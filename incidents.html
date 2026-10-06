@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusLink - Incidents</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <span class="logo-text"><span class="campus-bold">Campus</span><span class="link-text">Link</span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Tableau de bord</a></li>
+                <li><a href="salles.html">Salles & Équipements</a></li>
+                <li><a href="incidents.html">Incidents</a></li>
+                <li><a href="declaration.html">Déclaration de l'incident</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Gestion des Incidents</h1>
+        <p class="subtitle">Suivi des pannes signalées sur le campus.</p>
+
+        <section class="dashboard-cards">
+            <article class="card">
+                <h3>Projecteur Amphithéâtre A</h3>
+                <p>Statut : En cours • Urgence : Haute</p>
+                <!-- Lien vers la page de détail de l'incident -->
+                <a href="incident-detail.html" style="display:inline-block; margin-top:12px; color:#3498db; text-decoration:none; font-weight:600;">Voir les détails →</a>
+            </article>
+
+            <article class="card">
+                <h3>Prise réseau Salle 102</h3>
+                <p>Statut : Ouvert • Urgence : Moyenne</p>
+                <a href="incident-detail.html" style="display:inline-block; margin-top:12px; color:#3498db; text-decoration:none; font-weight:600;">Voir les détails →</a>
+            </article>
+
+            <article class="card">
+                <h3>Climatisation Labo</h3>
+                <p>Statut : Résolu • Urgence : Basse</p>
+                <a href="incident-detail.html" style="display:inline-block; margin-top:12px; color:#3498db; text-decoration:none; font-weight:600;">Voir les détails →</a>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
